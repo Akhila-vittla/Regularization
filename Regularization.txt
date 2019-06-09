@@ -1,0 +1,15 @@
+A standard least squares model tends to have some variance in it, i.e. this model won’t generalize well for a data set different
+than its training data.
+Regularization, significantly reduces the variance of the model, without substantial increase in its bias.
+So the tuning parameter λ, used in the regularization techniques described above, controls the impact on bias and variance. 
+RIDGE REGRESSION
+     we decrease model complexity while keeping all variables in the model. This, basically, is what Ridge Regression does.
+In Ridge Regression, the OLS loss function is augmented in such a way that we not only minimize the sum of squared residuals but 
+also penalize the size of parameter estimates, in order to shrink them towards zero
+LASSO REGRESSION
+     Lasso, or Least Absolute Shrinkage and Selection Operator, is quite similar conceptually to ridge regression
+It also adds a penalty for non-zero coefficients, but unlike ridge regression which penalizes sum of squared coefficients
+(the so-called L2 penalty), lasso penalizes the sum of their absolute values (L1 penalty).   
+ELASTIC NET REGRESSION
+      Elastic Net first emerged as a result of critique on lasso, whose variable selection can be too dependent on data and thus unstable.
+The solution is to combine the penalties of ridge regression and lasso to get the best of both worlds
