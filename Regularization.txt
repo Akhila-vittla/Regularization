@@ -13,3 +13,5 @@ It also adds a penalty for non-zero coefficients, but unlike ridge regression wh
 ELASTIC NET REGRESSION
       Elastic Net first emerged as a result of critique on lasso, whose variable selection can be too dependent on data and thus unstable.
 The solution is to combine the penalties of ridge regression and lasso to get the best of both worlds
+
+THANK YOU :)
